@@ -1,7 +1,7 @@
 const fileList = document.getElementById('file-list');
 
 async function loadFiles() {
-    const response = await fetch('https://api.github.com/repos/abusayed0206/cuet-ce-sessional-materials/files');
+    const response = await fetch('files/');
     const data = await response.json();
 
     data.forEach(item => {
@@ -14,7 +14,7 @@ async function loadFiles() {
         fileName.classList.add('file-name');
         fileSize.textContent = (item.size / 1024).toFixed(2) + ' KB';
         fileSize.classList.add('file-size');
-        downloadLink.href = item.download_url;
+        downloadLink.href = 'files/' + item.name;
         downloadLink.textContent = 'Download';
 
         li.appendChild(fileName);
