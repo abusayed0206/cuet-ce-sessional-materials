@@ -1,6 +1,6 @@
 # CUET CE Sessional Materials 📘🔒
 
-Welcome to the CUET CE Sessional Materials repository! As a Computer Engineering student at Chittagong University of Engineering and Technology (CUET), I've compiled sessional materials that you'll find helpful for your studies. These materials are password protected for your convenience. 🔐
+Welcome to the CUET CE Sessional Materials repository! As a Civil Engineering student at Chittagong University of Engineering and Technology (CUET), I've compiled sessional materials that you'll find helpful for your studies. These materials are password protected for your convenience. 🔐
 
 ## Password for All Files 🔑
 
